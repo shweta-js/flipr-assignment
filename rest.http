@@ -1,7 +1,7 @@
-###Get a list of all products
+###Get a list of all notes
 GET http://localhost:3000/notes
 
-### Create a product
+### Create a note
 POST http://localhost:3000/notes
 Content-Type: application/json
 
@@ -10,10 +10,10 @@ Content-Type: application/json
   "noteBody": "this is the third note"
 }
 
-### GET a product by id
+### GET a note by id
 GET http://localhost:3000/notes/643ae7783bc247547bf43b7a
 
-### Update a product by id
+### Update a note by id
 PUT  http://localhost:3000/notes/643ae7783bc247547bf43b7a
 Content-Type: application/json
 
@@ -22,7 +22,7 @@ Content-Type: application/json
 }
 
 
-### Delete a product by id
+### Delete a note by id
 DELETE  http://localhost:3000/notes/643ae71e3bc247547bf43b73
 
 ### 404 route Not Found
